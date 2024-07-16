@@ -26,6 +26,7 @@ const queryClint = new QueryClient({
 });
 
 function App() {
+  console.log(import.meta.env);
   return (
     <DarkModeProvider>
       <QueryClientProvider client={queryClint}>
